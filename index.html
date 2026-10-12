@@ -1,6 +1,47 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1530"><meta name="description" content="WorkforceHub — a fictional workforce management portfolio demo by Wenting Wang."><title>WorkforceHub | Workforce Management Demo</title><link rel="stylesheet" href="styles.css"></head><body>
-<div class="app"><aside class="sidebar"><a class="brand" href="#dashboard"><span class="mark">W</span><span>Workforce<span class="accent">Hub</span><small>People Operations Studio</small></span></a><div class="demo-tag">PORTFOLIO DEMO · FICTIONAL DATA</div><nav aria-label="Main navigation" id="nav"></nav><div class="sidefoot">Designed by <strong>Wenting Wang</strong><br>GitHub Pages · Static application</div></aside>
-<div class="main"><header class="topbar"><button id="menu" class="iconbutton" aria-label="Toggle menu">☰</button><div class="breadcrumbs">People & Talent / <b id="crumb">Overview</b></div><div class="topright"><span class="statusdot"></span> Demo environment <button class="btn outline small" id="reset">Reset demo</button></div></header>
-<main id="content" tabindex="-1"></main><footer>WorkforceHub by Wenting Wang · Independent HR technology demonstration · Do not enter personal, payroll, or confidential information.</footer></div></div>
-<button class="chatfloat" id="chatToggle" aria-label="Open HR assistant">✦ <span>Ask HR Copilot</span></button><section class="chatpanel" id="chatpanel" aria-label="HR chatbot" hidden><div class="chathead"><div><strong>✦ Workforce Copilot</strong><small>Rule-based demo assistant · Not a real AI service</small></div><button class="iconbutton" id="chatClose" aria-label="Close chatbot">×</button></div><div id="chatlog" class="chatlog" role="log" aria-live="polite"></div><div class="quick" id="suggestions"></div><form id="chatForm" class="chatinput"><input id="chatText" aria-label="Chat message" placeholder="Ask about staffing, interns, TDP..." maxlength="240" required><button class="btn primary" type="submit">Send</button></form></section>
-<script src="app.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#0b1530">
+    <meta name="description" content="WorkforceHub — a fictional workforce management portfolio demo by Wenting Wang.">
+    <title>WorkforceHub | Workforce Management Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <aside class="sidebar"><a class="brand" href="#dashboard"><span class="mark">W</span><span>Workforce<span
+                        class="accent">Hub</span><small>People Operations Studio</small></span></a>
+            <div class="demo-tag">PORTFOLIO DEMO · FICTIONAL DATA</div>
+            <nav aria-label="Main navigation" id="nav"></nav>
+            <div class="sidefoot">Designed by <strong>Wenting Wang</strong><br>GitHub Pages · Static application</div>
+        </aside>
+        <div class="main">
+            <header class="topbar"><button id="menu" class="iconbutton" aria-label="Toggle menu">☰</button>
+                <div class="breadcrumbs">People & Talent / <b id="crumb">Overview</b></div>
+                <div class="topright"><span class="statusdot"></span> Demo environment <button class="btn outline small"
+                        id="reset">Reset demo</button></div>
+            </header>
+            <main id="content" tabindex="-1"></main>
+            <footer>WorkforceHub by Wenting Wang · Independent HR technology demonstration · Do not enter personal,
+                payroll, or confidential information.</footer>
+        </div>
+    </div>
+    <button class="chatfloat" id="chatToggle" aria-label="Open HR assistant">✦ <span>Ask HR Copilot</span></button>
+    <section class="chatpanel" id="chatpanel" aria-label="HR chatbot" hidden>
+        <div class="chathead">
+            <div><strong>✦ Workforce Copilot</strong><small>Rule-based demo assistant · Not a real AI service</small>
+            </div><button class="iconbutton" id="chatClose" aria-label="Close chatbot">×</button>
+        </div>
+        <div id="chatlog" class="chatlog" role="log" aria-live="polite"></div>
+        <div class="quick" id="suggestions"></div>
+        <form id="chatForm" class="chatinput"><input id="chatText" aria-label="Chat message"
+                placeholder="Ask about staffing, interns, TDP..." maxlength="240" required><button class="btn primary"
+                type="submit">Send</button></form>
+    </section>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
